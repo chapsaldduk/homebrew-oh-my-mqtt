@@ -1,13 +1,13 @@
 cask "oh-my-mqtt" do
-  version "1.2.1"
+  version "1.3.0"
 
   on_arm do
-    sha256 "d8eea4ea569be9f2f920ff98ab0c1f4b37e3d082aa096649daad951f8632cd10"
+    sha256 "0ee7db4ee4ade29f4343cf48efbbdc4554808c13a95c4bb3b92bf68251675198"
     url "https://github.com/chapsaldduk/oh-my-mqtt/releases/download/v#{version}/Oh.My.MQTT-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "ca4ba9812a731d92178143dbcb095414babbe9795c6747886a481615fc32abd1"
+    sha256 "6113fdc347d9065dca76a7923e0f33270b107a51af36d964724930da8683b330"
     url "https://github.com/chapsaldduk/oh-my-mqtt/releases/download/v#{version}/Oh.My.MQTT-#{version}.dmg"
   end
 
