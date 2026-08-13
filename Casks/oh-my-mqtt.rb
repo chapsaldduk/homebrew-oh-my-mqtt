@@ -1,18 +1,18 @@
 cask "oh-my-mqtt" do
-  version "1.3.0"
+  version "1.3.1"
 
   on_arm do
-    sha256 "0ee7db4ee4ade29f4343cf48efbbdc4554808c13a95c4bb3b92bf68251675198"
+    sha256 "86798d698f8cad6ba3b6fb38f09a2233ad0922f7e76d96ba40c2935b085c6d9c"
     url "https://github.com/chapsaldduk/oh-my-mqtt/releases/download/v#{version}/Oh.My.MQTT-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "6113fdc347d9065dca76a7923e0f33270b107a51af36d964724930da8683b330"
+    sha256 "7d648fa105d4c836f3d65c095faa3d9dd33385bf3014f11e5a09cfecc43a8171"
     url "https://github.com/chapsaldduk/oh-my-mqtt/releases/download/v#{version}/Oh.My.MQTT-#{version}.dmg"
   end
 
   name "Oh My MQTT"
-  desc "Modern desktop MQTT client for macOS, Windows, and Linux"
+  desc "MQTT client with session recording, playback, and message diff"
   homepage "https://github.com/chapsaldduk/oh-my-mqtt"
 
   app "Oh My MQTT.app"
